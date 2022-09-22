@@ -1,0 +1,12 @@
+{
+  "name": "ayang-practice-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "@casl/ability": "^5.4.4",
+    "casl": "^1.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
