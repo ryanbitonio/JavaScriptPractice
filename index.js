@@ -1,9 +1,4 @@
-const sports = {
-  first: "basketball",
-  second: "tennis",
-  third: "bowling",
-};
-
-delete sports.first;
-
-console.log(sports);
+let x = 0;
+console.log(x++);
+console.log(++x);
+console.log(x);
