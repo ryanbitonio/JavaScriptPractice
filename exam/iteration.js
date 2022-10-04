@@ -21,3 +21,18 @@ let findResult = persons.find(
     persons.firstName.charAt(0) === "S" || persons.firstName.charAt(0) === "s"
 );
 console.log(findResult);
+
+let filterResult = persons.filter(
+  (persons) =>
+    persons.firstName.charAt(0) === "S" || persons.firstName.charAt(0) === "s"
+);
+console.log(filterResult);
+
+let findFilterMap = persons.filter((value) => value.age < 55);
+let filterMapResult = findFilterMap.map((value) => value.age);
+console.log(filterMapResult);
+
+let minor = persons.filter((value) => value.age < 17);
+console.log(minor);
+let minorNames = minor.map((value) => `${value.firstName} ${value.lastName}`);
+console.log(minorNames);
