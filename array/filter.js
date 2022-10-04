@@ -13,3 +13,5 @@
 const ages = [1, 5, 7, 12, 15, 21, 22, 28, 33, 34];
 const employee = ages.filter((age) => age <= 18);
 console.log(employee);
+
+//  If no element matches the specified condition, filter returns an empty array
