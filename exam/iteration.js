@@ -29,6 +29,7 @@ let filterResult = persons.filter(
 console.log(filterResult);
 
 let findFilterMap = persons.filter((value) => value.age < 55);
+console.log(findFilterMap);
 let filterMapResult = findFilterMap.map((value) => value.age);
 console.log(filterMapResult);
 
